@@ -1,0 +1,141 @@
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+.nav-container {
+ color: #333;
+ display: block;
+ font-family: "Helvetica-Neue", Arial, sans-serif;
+ font-size: 13px;
+ font-style: normal;
+ font-weight: normal;
+ letter-spacing: 1px;
+ line-height: 1.3em;
+ text-align: center;
+ text-transform: uppercase;
+ height: 37px;
+}
+
+.nav-list {
+  display: inline-block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-stlye: normal;
+  font-weight: normal;
+  height: 37px;
+  letter-spacing:1px;
+  line-height: 1.3em;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-list-item {
+  display: inline-block;
+  color: #333;
+  font-family: "Helvetica Neue",Arial,sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: #212121;
+  cursor: auto;
+  display: block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  list-style-type: none;
+  opacity: 1;
+  padding: 1.6em 2em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+}
+
+.nav-link-text:hover {
+  border-bottom: 1px solid #212121;
+ }
+
+.nav-link-text {
+  color: #212121;
+  cursor: auto;
+  display: inline;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  height: auto;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  list-style-type: none;
+  text-align: center;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.site-title {
+  color: #222;
+  cursor: auto;
+  display: block;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-size: 54px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.4em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  
+}
+
+header {
+ display: block;
+ text-align: center;
+ padding: 60px 0;
+}
+
+.site-title-link {
+  color: #222;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.site-tagline {
+  color: #584b4b;
+  font-family: Alice;
+  font-size: 15px;
+  line-height: 1.6em;
+  text-transform: none;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 12px 0 0;
+}
+
+.container-wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.content-container {
+  padding: 0 0 120px;
+}
